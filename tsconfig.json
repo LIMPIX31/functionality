@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2019",
-    "module": "NodeNext",
+    "module": "ESNext",
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
     "allowArbitraryExtensions": true,
@@ -23,7 +23,7 @@
     "skipLibCheck": true,
     "importHelpers": true,
     "noEmit": true,
-    "rootDir": "./",
+    "baseUrl": "./",
     "types": [
       "node"
     ],
