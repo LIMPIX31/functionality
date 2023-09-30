@@ -21,8 +21,8 @@
     "pretty": true,
     "skipDefaultLibCheck": true,
     "skipLibCheck": true,
-    "importHelpers": true,
     "noEmit": true,
+    "rootDir": "./",
     "baseUrl": "./",
     "types": [
       "node"
@@ -30,10 +30,19 @@
     "paths": {
       "@app/entrypoint": [
         "app/entrypoint"
+      ],
+      "@theme/builder": [
+        "shared/theme/builder"
+      ],
+      "@theme/common": [
+        "shared/theme/common"
+      ],
+      "@theme/dark": [
+        "shared/theme/dark"
       ]
     }
   },
   "include": [
-    "app/**/*"
+    "**/*"
   ]
 }

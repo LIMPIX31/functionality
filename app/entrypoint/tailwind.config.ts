@@ -1,6 +1,7 @@
-import      { nextui } from '@nextui-org/react'
 import      pnpapi     from 'pnpapi'
 import type { Config } from 'tailwindcss'
+
+import      nextui     from './nextui.ts'
 
 const nextuiDist = pnpapi.resolveToUnqualified('@nextui-org/theme', process.cwd())
 
@@ -10,5 +11,5 @@ export default {
 		extend: {},
 	},
 	darkMode: 'class',
-	plugins: [nextui()],
+	plugins: [nextui],
 } satisfies Config
