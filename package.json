@@ -1,0 +1,25 @@
+{
+  "packageManager": "yarn@3.6.3",
+  "type": "module",
+  "workspaces": [
+    "**/**"
+  ],
+  "scripts": {
+    "dev": "yarn workspace @app/entrypoint dev",
+    "build": "yarn workspace @app/entrypoint build",
+    "lint": "eslint **/**.{ts,tsx}",
+    "typecheck": "tsc"
+  },
+  "devDependencies": {
+    "@lmpx-config/eslint": "^0.0.17",
+    "@lmpx-config/prettier": "^0.0.2",
+    "@types/node": "20.7.2",
+    "eslint": "^8.50.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  },
+  "typescriptWorkspaces": {
+    "enabled": true,
+    "artifacts": true
+  }
+}

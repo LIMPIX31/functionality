@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "NodeNext",
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "allowArbitraryExtensions": true,
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "alwaysStrict": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "useDefineForClassFields": true,
+    "useUnknownInCatchVariables": true,
+    "stripInternal": true,
+    "incremental": true,
+    "composite": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react-jsx",
+    "pretty": true,
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "importHelpers": true,
+    "noEmit": true,
+    "rootDir": "./",
+    "types": [
+      "node"
+    ],
+    "paths": {
+      "@app/entrypoint": [
+        "app/entrypoint"
+      ]
+    }
+  },
+  "include": [
+    "app/**/*"
+  ]
+}
