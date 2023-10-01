@@ -27,6 +27,7 @@ __metadata:
     "@csstools/postcss-oklab-function": "npm:3.0.5"
     "@nextui-org/react": "npm:2.1.13"
     "@nextui-org/theme": "npm:2.1.9"
+    "@studio-freight/react-lenis": "npm:0.0.36"
     "@theme/dark": "workspace:^"
     "@types/node": "npm:20.7.2"
     "@types/pnpapi": "npm:0.0.3"
@@ -2476,6 +2477,50 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@studio-freight/hamo@npm:^0.6.19":
+  version: 0.6.19
+  resolution: "@studio-freight/hamo@npm:0.6.19"
+  dependencies:
+    "@studio-freight/tempus": "npm:^0.0.38"
+    rimraf: "npm:^5.0.1"
+    throttle-debounce: "npm:^5.0.0"
+  peerDependencies:
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  checksum: d29eed5921afb8948e5c48e83da30b2f7aaaee990cec83118c9ec5b9b7995325e443035959879eced4cac1375caf3f30a770213e452186364035e0c4d0abc06b
+  languageName: node
+  linkType: hard
+
+"@studio-freight/lenis@npm:^1.0.24":
+  version: 1.0.25
+  resolution: "@studio-freight/lenis@npm:1.0.25"
+  checksum: 083084e90c4aa0235b615bec93ea031522c8168749aa85ed453e7060675b6d0712329f117e8488ebdb81edaa585e40266e2fb4c711d37be654d462ce3cae0b6a
+  languageName: node
+  linkType: hard
+
+"@studio-freight/react-lenis@npm:0.0.36":
+  version: 0.0.36
+  resolution: "@studio-freight/react-lenis@npm:0.0.36"
+  dependencies:
+    "@studio-freight/hamo": "npm:^0.6.19"
+    "@studio-freight/lenis": "npm:^1.0.24"
+    clsx: "npm:^2.0.0"
+    prop-types: "npm:^15.8.1"
+    zustand: "npm:^4.4.1"
+  peerDependencies:
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  checksum: 511be30f89cb1407176aa2053449579c24ea78bddb7092495a68d49b9b3305a3ba5830f4da802b33d858f8f6c9d0830d24e19a41365fca890dea0a702cc6e003
+  languageName: node
+  linkType: hard
+
+"@studio-freight/tempus@npm:^0.0.38":
+  version: 0.0.38
+  resolution: "@studio-freight/tempus@npm:0.0.38"
+  checksum: 5f9b96d950c22e030af87527c5f8342797f6984e9204e78a6ffe3819c00d06cd165015ca72ea5750e52c9300380d8b660ee5d9390556509efe03b258131653a9
+  languageName: node
+  linkType: hard
+
 "@swc/helpers@npm:0.5.2, @swc/helpers@npm:^0.5.0":
   version: 0.5.2
   resolution: "@swc/helpers@npm:0.5.2"
@@ -3294,6 +3339,13 @@ __metadata:
   version: 1.2.1
   resolution: "clsx@npm:1.2.1"
   checksum: 34dead8bee24f5e96f6e7937d711978380647e936a22e76380290e35486afd8634966ce300fc4b74a32f3762c7d4c0303f442c3e259f4ce02374eb0c82834f27
+  languageName: node
+  linkType: hard
+
+"clsx@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "clsx@npm:2.0.0"
+  checksum: c09f43b3144a0b7826b6b11b6a111b2c7440831004eecc02d333533c5e58ef0aa5f2dce071d3b25fbb8c8ea97b45df96c74bcc1d51c8c2027eb981931107b0cd
   languageName: node
   linkType: hard
 
@@ -4326,7 +4378,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:^10.2.2":
+"glob@npm:^10.2.2, glob@npm:^10.3.7":
   version: 10.3.10
   resolution: "glob@npm:10.3.10"
   dependencies:
@@ -6248,6 +6300,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"rimraf@npm:^5.0.1":
+  version: 5.0.5
+  resolution: "rimraf@npm:5.0.5"
+  dependencies:
+    glob: "npm:^10.3.7"
+  bin:
+    rimraf: dist/esm/bin.mjs
+  checksum: d50dbe724f33835decd88395b25ed35995077c60a50ae78ded06e0185418914e555817aad1b4243edbff2254548c2f6ad6f70cc850040bebb4da9e8cc016f586
+  languageName: node
+  linkType: hard
+
 "root-workspace-0b6124@workspace:.":
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
@@ -6764,6 +6827,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"throttle-debounce@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "throttle-debounce@npm:5.0.0"
+  checksum: 666d5b73bfa7340c5186b244416ce965cd276e4bc91a12453ff6eddcc62f02a19c6f532305601d90c809dd5acbd45dd6eea5eb43e0a879a0b3d66d0886a4d8d2
+  languageName: node
+  linkType: hard
+
 "titleize@npm:^3.0.0":
   version: 3.0.0
   resolution: "titleize@npm:3.0.0"
@@ -7024,6 +7094,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"use-sync-external-store@npm:1.2.0":
+  version: 1.2.0
+  resolution: "use-sync-external-store@npm:1.2.0"
+  peerDependencies:
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+  checksum: ac4814e5592524f242921157e791b022efe36e451fe0d4fd4d204322d5433a4fc300d63b0ade5185f8e0735ded044c70bcf6d2352db0f74d097a238cebd2da02
+  languageName: node
+  linkType: hard
+
 "util-deprecate@npm:^1.0.1, util-deprecate@npm:^1.0.2":
   version: 1.0.2
   resolution: "util-deprecate@npm:1.0.2"
@@ -7173,5 +7252,25 @@ __metadata:
   version: 3.21.4
   resolution: "zod@npm:3.21.4"
   checksum: 161e8cf7aea38a99244d65da4a9477d9d966f6a533e503feaa20ff7968a9691065c38c6f1eab5cbbdc8374142fff4a05c9cacb8479803ab50ab6a6ca80e5d624
+  languageName: node
+  linkType: hard
+
+"zustand@npm:^4.4.1":
+  version: 4.4.1
+  resolution: "zustand@npm:4.4.1"
+  dependencies:
+    use-sync-external-store: "npm:1.2.0"
+  peerDependencies:
+    "@types/react": ">=16.8"
+    immer: ">=9.0"
+    react: ">=16.8"
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+    immer:
+      optional: true
+    react:
+      optional: true
+  checksum: c119273886e5cdbd7a9f80c9e0fee8a2c736bb6428e283b25c6dfd428789a95e10b6ed6b18553c955ce0d5dd62e2f4a84af3e2a41f31fdb34fd25462d2b19a8c
   languageName: node
   linkType: hard

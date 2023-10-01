@@ -8,6 +8,7 @@
 	"dependencies": {
 		"@nextui-org/react": "2.1.13",
 		"@nextui-org/theme": "2.1.9",
+		"@studio-freight/react-lenis": "0.0.36",
 		"@theme/dark": "workspace:^",
 		"framer-motion": "10.16.4",
 		"next": "13.5.3",
