@@ -14,4 +14,11 @@ export const darkTheme: ConfigTheme = {
 		background: li(),
 		foreground: li(true),
 	},
+	layout: {
+		radius: {
+			large: '12px',
+			medium: '6px',
+			small: '4px',
+		},
+	},
 }

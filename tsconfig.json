@@ -39,6 +39,9 @@
       ],
       "@theme/dark": [
         "shared/theme/dark"
+      ],
+      "@theme/fonts": [
+        "shared/theme/fonts"
       ]
     }
   },

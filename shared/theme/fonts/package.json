@@ -1,0 +1,12 @@
+{
+	"name": "@theme/fonts",
+	"main": "mod.ts",
+	"type": "module",
+	"dependencies": {
+		"next": "13.5.3"
+	},
+	"peerDependencies": {
+		"react": ">=18",
+		"react-dom": ">=18"
+	}
+}

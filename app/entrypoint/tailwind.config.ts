@@ -9,6 +9,9 @@ export default {
 	content: ['../../**/*.{ts,tsx,mdx}', `${nextuiDist}dist/**/*.{js,ts,jsx,tsx}`],
 	theme: {
 		extend: {},
+		fontFamily: {
+			sans: ['var(--font-mabry)'],
+		},
 	},
 	darkMode: 'class',
 	plugins: [nextui],

@@ -29,6 +29,7 @@ __metadata:
     "@nextui-org/theme": "npm:2.1.9"
     "@studio-freight/react-lenis": "npm:0.0.36"
     "@theme/dark": "workspace:^"
+    "@theme/fonts": "workspace:^"
     "@types/node": "npm:20.7.2"
     "@types/pnpapi": "npm:0.0.3"
     "@types/react": "npm:18.2.23"
@@ -2564,6 +2565,17 @@ __metadata:
     "@nextui-org/theme": "npm:2.1.9"
     "@theme/builder": "workspace:^"
     "@theme/common": "workspace:^"
+  languageName: unknown
+  linkType: soft
+
+"@theme/fonts@workspace:^, @theme/fonts@workspace:shared/theme/fonts":
+  version: 0.0.0-use.local
+  resolution: "@theme/fonts@workspace:shared/theme/fonts"
+  dependencies:
+    next: "npm:13.5.3"
+  peerDependencies:
+    react: ">=18"
+    react-dom: ">=18"
   languageName: unknown
   linkType: soft
 
