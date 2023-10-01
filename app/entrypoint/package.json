@@ -8,6 +8,9 @@
 	"dependencies": {
 		"@nextui-org/react": "2.1.13",
 		"@nextui-org/theme": "2.1.9",
+		"@studio-freight/react-lenis": "0.0.36",
+		"@theme/dark": "workspace:^",
+		"@theme/fonts": "workspace:^",
 		"framer-motion": "10.16.4",
 		"next": "13.5.3",
 		"next-themes": "0.2.1",
@@ -15,6 +18,8 @@
 		"react-dom": "18.2.0"
 	},
 	"devDependencies": {
+		"@csstools/postcss-color-mix-function": "2.0.5",
+		"@csstools/postcss-oklab-function": "3.0.5",
 		"@types/node": "20.7.2",
 		"@types/pnpapi": "0.0.3",
 		"@types/react": "18.2.23",

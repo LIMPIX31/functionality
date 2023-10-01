@@ -1,0 +1,12 @@
+{
+	"name": "@theme/dark",
+	"main": "mod.ts",
+	"type": "module",
+	"dependencies": {
+		"@theme/builder": "workspace:^",
+		"@theme/common": "workspace:^"
+	},
+	"devDependencies": {
+		"@nextui-org/theme": "2.1.9"
+	}
+}
